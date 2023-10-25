@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+.hero-image-wraper{
+    display: flex;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mobile-resolution{
+    display: none;
+}
+ 
+.logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 61px;
+}
+.hero-image-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-middle{
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 47px;
+
+}
+.group-title{
+    max-width: 445px;
+    width: 100%;
+    color: #28283D;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;  
+    margin: 0 auto;
+}
+.group-desc{
+    width: 100%;
+    color: #87879D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;  
+    margin-top: 34px;
+}
+.group-chat-btns{
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.group-btn{
+    display: flex;
+    border-radius: 29px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+}
+ 
+.btn-first{
+    background: #4D96A9;
+    transition: all 0.3s;
+}
+.btn-first:hover{
+    background: #71C0D4;
+}
+
+.btn-first p{
+    color: #8FE3F9;
+    margin-left: 4px;
+}
+
+
+.btn-second{
+    background: #855FB1;
+    transition: all 0.3s;
+}
+.btn-second:hover{
+    background: #B18BDD;
+}
+.btn-first, .btn-second{
+    padding: 16px 40px;
+}
+/* Section Title */
+.section-title{
+    max-width: 56px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sec-title-first{
+    margin-top: 117px;
+}
+.line{
+    width: 1px;
+    height: 84px;
+    background: #87879D;
+    margin: 0 auto;
+}
+.section-number{
+    width: 100%;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-number p{
+    color: #87879D;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px; /* 162.5% */
+}
+/* ------------- */
+
+/* Photos */
+
+.photos{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photos-img{
+    max-width: 255px;
+    width: 100%;
+    max-height: 242px;
+    height: 100%;
+}
+.photos-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Built for modern use */
+.mondern{
+    color: #4D96A9;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px; 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 58px;
+}
+.meetings{
+    max-width:  445px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    color: #28283D;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;  
+    text-align: center;
+}
+.information{
+    max-width:  540px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 32px;
+    color: #87879D;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    margin-bottom: 72px;
+}
+/*  */
+
+/* Footer */
+.footer{
+    width: 100%;
+    position: relative;
+    margin-top: 184px;
+}
+.footer::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4D96A9;
+    opacity: 0.8;
+}
+.footer-image-wraper{
+    position: relative;
+}
+.footer-image-wraper img{
+    width: 100%;
+}
+.footer-wraper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+}
+.footer-wraper h2{
+    color: #FAFAFA;
+    max-width: 350px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px; 
+}
+.footer-desc p{
+    color: #FAFAFA;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;  
+}
+.footer-btn{
+    background: #855FB1;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    color: #FFF;
+    gap: 4px;
+}
+.footer-btn:hover{
+    background: #B18BDD;
+}
+.footer-btn p{
+    color: #D9B8FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+}
+.footer-sec-title{
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 4;
+}
